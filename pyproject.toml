@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dynamic-fee-analytics"
+version = "0.1.0"
+description = "Dynamic Fee Analytics for Velodrome and Aerodrome liquidity pools."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+plotly = "^5.24.1"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
